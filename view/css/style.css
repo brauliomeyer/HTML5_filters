@@ -1,0 +1,171 @@
+/* CSS design for all pages */
+body { 
+    padding-top: 70px; 
+}
+
+hr {
+    border: 1px solid #7C8589;
+    width: 50%;
+}
+footer {
+    margin: 50px;
+    padding: 20px;
+    height: 100px;
+    width: auto;
+    background: #8b8b8b;
+}
+/* CSS design for Greyscale pages */
+.greyscale img {
+    filter: grayscale(0.9);
+        -webkit-filter:grayscale(0.9);
+        -moz-filter:grayscale(0.9);
+        -o-filter:grayscale(0.9);
+        -ms-filter:grayscale(0.9);
+}
+.greyscale img:hover {
+    filter: grayscale(0);
+        -webkit-filter:grayscale(0);
+        -moz-filter:grayscale(0);
+        -o-filter:grayscale(0);
+        -ms-filter:grayscale(0);
+}
+
+/* CSS design for Blur pages */
+.blur img {
+filter: blur(3px);
+    -webkit-filter:blur(3px);
+    -moz-filter:blur(3px);
+    -o-filter:blur(3px);
+    -ms-filter:blur(3px);
+}
+.blur img:hover {
+filter: blur(0px);
+    -webkit-filter:blur(0px);
+    -moz-filter:blur(0px);
+    -o-filter:blur(0px);
+    -ms-filter:blur(0px);
+}
+
+/* CSS design for Sepia pages */
+.sepia img {
+    filter: sepia(0.9);
+        -webkit-filter:sepia(0.9);
+        -moz-filter:sepia(0.9);
+        -o-filter:sepia(0.9);
+        -ms-filter:sepia(0.9);
+}
+.sepia img:hover {
+    filter: sepia(0);
+        -webkit-filter:sepia(0);
+        -moz-filter:sepia(0);
+        -o-filter:sepia(0);
+        -ms-filter:sepia(0);
+}
+
+/* CSS design for Invert pages */
+.invert img {
+    filter: invert(0.9);
+        -webkit-filter:invert(0.9);
+        -moz-filter:invert(0.9);
+        -o-filter:invert(0.9);
+        -ms-filter:invert(0.9);
+}
+
+.invert img:hover {
+    filter: invert(0.1);
+        -webkit-filter:invert(0.1);
+        -moz-filter:invert(0.1);
+        -o-filter:invert(0.1);
+        -ms-filter:invert(0.1);
+}
+
+/* CSS design for Opacity page */
+.opacity img {
+    opacity: 0.3;
+}
+
+.opacity img:hover {
+    opacity: 1;
+}
+
+/* CSS design for Saturate page */
+.saturate img {
+    filter: saturate(500%);
+        -webkit-filter:saturate(700%);
+        -moz-filter:saturate(700%);
+        -o-filter:saturate(700%);
+        -ms-filter:saturate(700%);
+}
+.saturate img:hover {
+        filter: saturate(100%);
+        -webkit-filter:saturate(100%);
+        -moz-filter:saturate(100%);
+        -o-filter:saturate(100%);
+        -ms-filter:saturate(100%);
+}
+
+/* CSS design for Contrast page */
+.contrast img {
+    filter: contrast(0.2);
+        -webkit-filter:contrast(0.2);
+        -moz-filter:contrast(0.2);
+        -o-filter:contrast(0.2);
+        -ms-filter:contrast(0.2);
+}
+.contrast img:hover {
+    filter: contrast(3);
+        -webkit-filter:contrast(3);
+        -moz-filter:contrast(3);
+        -o-filter:contrast(3);
+        -ms-filter:contrast(3);
+}
+
+/* CSS design for Brightness page */
+.brightness img {
+    filter: brightness(0.3);
+        -webkit-filter:brightness(0.3);
+        -moz-filter:brightness(0.3);
+        -o-filter:brightness(0.3);
+        -ms-filter:brightness(0.3);
+}
+.brightness img:hover {
+    filter: brightness(1);
+        -webkit-filter:brightness(1);
+        -moz-filter:brightness(1);
+        -o-filter:brightness(1);
+        -ms-filter:brightness(1);    
+}
+
+/* CSS design for Hue-Rotate page */
+.hue-rotate img {
+    filter: hue-rotate(285deg);
+        -webkit-filter:hue-rotate(285deg);
+        -moz-filter:hue-rotate(285deg);
+        -o-filter:hue-rotate(285deg);
+        -ms-filter:hue-rotate(285deg);
+}
+.hue-rotate img:hover {
+    filter: hue-rotate(170deg);
+        -webkit-filter:hue-rotate(170deg);
+        -moz-filter:hue-rotate(170deg);
+        -o-filter:hue-rotate(170deg);
+        -ms-filter:hue-rotate(170deg);
+}
+
+/* CSS design for Hue-Rotate page */
+.drop-shadow img {
+    filter: drop-shadow(15px 15px 10px rgb(0,0,0));
+        -webkit-filter:drop-shadow(15px 15px 10px rgb(0,0,0));
+        -moz-filter:drop-shadow(15px 15px 10px rgb(0,0,0));
+        -o-filter:drop-shadow(15px 15px 10px rgb(0,0,0));
+        -ms-filter:drop-shadow(15px 15px 10px rgb(0,0,0));
+}
+.drop-shadow img:hover {
+    filter: drop-shadow(50px 15px 100px rgb(0,0,0));
+        -webkit-filter:drop-shadow(50px 15px 100px rgb(0,0,0));
+        -moz-filter:drop-shadow(50px 15px 100px rgb(0,0,0));
+        -o-filter:drop-shadow(50px 15px 100px rgb(0,0,0));
+        -ms-filter:drop-shadow(50px 15px 100px rgb(0,0,0));
+}
+
+
